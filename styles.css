@@ -47,13 +47,26 @@ header {
   
 .page_heading {
     margin-left: 5%;
+    margin-top: 40px;
 } 
 
 .author_information {
     margin-left: 5%;
 }
 
-/* Navigation and Link styles. Sizing based on responsive template. */
+/* Navigation, Link, and Image styles. Sizing based on responsive template. */
+
+img {
+  max-width: 100%;
+}
+
+.woman {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
 
 a, li {
   color: #000;
@@ -93,14 +106,6 @@ nav {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-}
-
-.woman {
-  display: block;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
 }
 
 /* Header area */
@@ -160,17 +165,19 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .validation_badge {
-    display: none;
-  }
+  
   .article_heading {
     border: none;
-    background-color: white;
   }
+
   .container {
     width: 100%;
     margin:0;
-    background-color: white;
+    background-color: #A4C1B7;
+  }
+
+  .woman{
+    display: none;
   }
 
 }
